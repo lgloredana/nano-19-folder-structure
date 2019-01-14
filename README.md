@@ -13,3 +13,20 @@ For this a create-react-app lib is necessary to be installed globally : `npm ins
 - `npm start` - for opening the application
 
 
+Styructure   
+
+<code> 
+
+Frontend
+   - Components
+      - component1.js
+      - component2.js
+      - component3.js
+   - Actions
+      - action1.js
+      - action2.js
+   - Reducers
+      - reducer1.js
+   - Util
+   - Store
+ </code>
