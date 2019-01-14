@@ -13,7 +13,7 @@ For this a create-react-app lib is necessary to be installed globally : `npm ins
 - `npm start` - for opening the application
 
 
-Styructure   
+**Structure**
 
 <code> 
 
