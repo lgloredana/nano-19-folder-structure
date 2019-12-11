@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import List from './List'
 import {EDIT_ID, editId, editName} from "../actions/document";
+import EditSubNameView from "./EditSubNameView";
 
 class EditNameView extends React.Component{
     counter = 0;
@@ -11,7 +12,7 @@ class EditNameView extends React.Component{
     };
     render(){
         this.counter++;
-        console.log(`--------------------render id view = ${this.counter}--------------------`);
+        console.log(`--------------------render name view = ${this.counter}--------------------`);
         return(
              <div>
                 <h1>Edit NAME Container</h1>
@@ -22,6 +23,7 @@ class EditNameView extends React.Component{
                     ref={(input) => this.inputEditNAME = input}
                 />
                 <button onClick={this.editName}>EditID</button>
+                 <EditSubNameView/>
             </div>
         )
     }

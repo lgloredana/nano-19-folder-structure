@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9116350d-3650-42e6-a405-593e7b2f2450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditIdView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditNameView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EditSubNameView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditNameView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditNameView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/document.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +38,7 @@
   <component name="ProjectId" id="1UmuaysfYv4SFWtrEnQLzCYtwXB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547466437669" />
@@ -93,6 +90,7 @@
       <workItem from="1573203107362" duration="13960000" />
       <workItem from="1575974159883" duration="766000" />
       <workItem from="1575980689215" duration="2694000" />
+      <workItem from="1576060037859" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Split index.html file to folders and js files as shown in the nanodegree following the Rails-style approach">
       <created>1547463698953</created>
@@ -115,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547465372914</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dom view rerender">
+      <created>1575983655960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575983655960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +143,8 @@
     <MESSAGE value="feat: Split index.html file to folders and js files as shown in the nanodegree following the Rails-style approach" />
     <MESSAGE value="doc: Show Structure folder" />
     <MESSAGE value="doc: fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc: fix typo" />
+    <MESSAGE value="dom view rerender" />
+    <option name="LAST_COMMIT_MESSAGE" value="dom view rerender" />
   </component>
   <component name="masterDetails">
     <states>
