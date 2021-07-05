@@ -3,6 +3,8 @@ import { connect } from 'react-redux'
 import { handleInitialData } from '../actions/shared'
 import ConnectedTodos from './Todos'
 import ConnectedGoals from './Goals'
+import EditIdView from "./EditIdView";
+import EditNameView from "./EditNameView";
 
 class App extends React.Component {
     componentDidMount () {
@@ -17,6 +19,8 @@ class App extends React.Component {
                 : <div>
                     <ConnectedTodos/>
                     <ConnectedGoals/>
+                    <EditIdView></EditIdView>
+                    <EditNameView></EditNameView>
                 </div>
         )
     }
